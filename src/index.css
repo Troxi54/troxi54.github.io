@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-bg: #1a1b2f;
+  --color-bg2: #20243e;
+  --color-bg3:#0b0d1b;
+  --color-main-text: #e0e0e0;
+  --color-secondary-text: #9ca3af;
+  --color-accent: #818cf8;
+  --color-block: #1a1a2e;
+
+  --font-main: 'Outfit', sans-serif;
+}
+
+@utility flex-centralize {
+  @apply flex items-center justify-center;
+}
+
+:root {
+  @apply text-white text-center;
+}
+
+body {
+  @apply font-main font-semibold 
+         h-screen overflow-y-auto bg-transparent;
+}
+
+body::before {
+  @apply content-[''] fixed w-screen h-screen top-0 left-0
+         bg-linear-[135deg] from-bg via-bg2 to-bg3;
+}
+
+body, #root, main, div {
+  @apply flex-centralize;
+}
+
+body, #root, main {
+  @apply flex items-center justify-center flex-col;
+}
+
+main {
+  @apply bg-[#ffffff08] 
+           border-1 border-[#ffffff0d]
+           shadow-[0_4px_20px_#00000066]
+           backdrop-blur-[10px]
+           rounded-2xl;
+}
+
+#root {
+  @apply w-full h-fit min-h-full justify-start;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1 { @apply text-2xl sm:text-3xl md:text-4xl; }
+h2 { @apply text-xl sm:text-2xl md:text-3xl; }
+h3 { @apply text-lg sm:text-xl md:text-2xl; }
+h4 { @apply text-base sm:text-lg md:text-xl; }
+
+a {
+  @apply text-accent transition-[text-shadow] duration-200 ease-in-out;
+}
+
+a:hover {
+  @apply text-shadow-[0_0_5px] text-shadow-accent;
+}
+
+.projects > article {
+  @apply flex-centralize flex-col lg:flex-row w-full space-x-5 bg-block justify-start
+         border-1 border-[#ffffff0d]
+         shadow-[0_0px_15px_#312e81]
+         transition duration-300 ease-in-out
+         rounded-2xl overflow-hidden;
+}
+
+.projects > article:hover {
+  @apply transform-[scale(1.02)] shadow-[0_0px_25px_#6366f1];
+}
+
+.projects > article > img {
+  @apply border-none xl:border-r-1 border-[#ffffff0d] m-0 h-60 sm:h-50 inline-flex w-full sm:w-auto;
+}
+
+.projects > article > div {
+  @apply w-full flex-col p-2;
+}
+.projects > article > div > p:nth-of-type(2) {
+  @apply text-secondary-text;
+}
