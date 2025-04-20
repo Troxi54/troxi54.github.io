@@ -42,7 +42,7 @@ function App() {
               <img src={pointsProgressionScreenshot} alt="Points Progression screenshot" loading="lazy"/>
               <div>
                 <h3 className="mb-2"><a href="https://troxi54.github.io/Points-Progression/" target="_blank" rel="noopener noreferrer">Points Progression</a></h3>
-                <p>Stack used: Vite, React.js, TypeScript, break_eternity.js</p>
+                <p>Stack used: Vite, React.js, Tailwind CSS, TypeScript, break_eternity.js</p>
                 <p className="text-sm">An incremental game where players earn points and unlock upgrades. Designed with a clean interface and scalable progression system.</p>
               </div>
             </article>
