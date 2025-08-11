@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
 @import "tailwindcss";
-
 
 @theme {
   --color-bg: #1a1b2f;
   --color-bg2: #20243e;
-  --color-bg3:#0b0d1b;
+  --color-bg3: #0b0d1b;
   --color-main-text: #e0e0e0;
   --color-secondary-text: #9ca3af;
   --color-accent: #818cf8;
   --color-block: #1a1a2e;
 
-  --font-main: 'Outfit', sans-serif;
+  --font-main: "Outfit", sans-serif;
 }
 
 @utility flex-centralize {
@@ -32,11 +31,16 @@ body::before {
          bg-linear-[135deg] from-bg via-bg2 to-bg3;
 }
 
-body, #root, main, div {
+body,
+#root,
+main,
+div {
   @apply flex-centralize;
 }
 
-body, #root, main {
+body,
+#root,
+main {
   @apply flex items-center justify-center flex-col;
 }
 
@@ -56,10 +60,18 @@ main {
   flex-grow: 1;
 }
 
-h1 { @apply text-2xl sm:text-3xl md:text-4xl; }
-h2 { @apply text-xl sm:text-2xl md:text-3xl; }
-h3 { @apply text-lg sm:text-xl md:text-2xl; }
-h4 { @apply text-base sm:text-lg md:text-xl; }
+h1 {
+  @apply text-2xl sm:text-3xl md:text-4xl;
+}
+h2 {
+  @apply text-xl sm:text-2xl md:text-3xl;
+}
+h3 {
+  @apply text-lg sm:text-xl md:text-2xl;
+}
+h4 {
+  @apply text-base sm:text-lg md:text-xl;
+}
 
 a {
   @apply text-accent transition-[text-shadow] duration-200 ease-in-out;
@@ -86,8 +98,8 @@ a:hover {
 }
 
 .projects > article > div {
-  @apply w-full flex-col p-2;
+  @apply w-full flex-col py-2 px-4;
 }
 .projects > article > div > p:nth-of-type(2) {
-  @apply text-secondary-text;
+  @apply text-secondary-text text-balance;
 }
