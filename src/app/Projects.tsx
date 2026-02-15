@@ -124,7 +124,7 @@ function Projects() {
         <Project
           name="C++ game"
           screenshotSrc={cppGameScreenshot}
-          src={cppGameScreenshot}
+          src="https://youtu.be/_YMmRKJ03II"
           stack={<>C++, SFML</>}
           description={
             <>
