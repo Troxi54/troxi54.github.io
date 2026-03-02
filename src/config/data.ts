@@ -1,5 +1,5 @@
 const globalConfig = {
-  membersInDiscordOver: 800,
+  membersInDiscordOver: 900,
 } as const;
 
 export default globalConfig;
