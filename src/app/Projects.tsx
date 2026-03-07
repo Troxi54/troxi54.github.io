@@ -21,7 +21,7 @@ function Projects() {
           stack={
             <>
               Vite, React.js, Zustand, Tailwind CSS, TypeScript,
-              break_eternity.js, lz-string
+              break_eternity.js
             </>
           }
           description={
