@@ -7,7 +7,7 @@ function Skills() {
           <strong>Languages & Markup:</strong> JavaScript, TypeScript, HTML, CSS
         </li>
         <li>
-          <strong>Frameworks & Libraries:</strong>Next.js, React.js, Tailwind
+          <strong>Frameworks & Libraries:</strong> Next.js, React.js, Tailwind
           CSS, SCSS, Zustand, jQuery
         </li>
         <li>
