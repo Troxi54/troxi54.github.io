@@ -4,7 +4,7 @@ import Link from "@components/base/Link";
 function Portfolio() {
   return (
     <section>
-      <h1 className="mb-3">🌍 My portfolio</h1>
+      <h1 className="text-4xl mb-3">🌍 My portfolio</h1>
       <p>
         Hello, my name is Troxi. I'm a web developer focused on building
         interactive web applications using JavaScript, React, TypeScript, and

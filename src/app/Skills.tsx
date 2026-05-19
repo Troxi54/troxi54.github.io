@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <section>
-      <h2 className="mb-3">🛠️ Skills</h2>
+      <h2 className="text-3xl mb-3">🛠️ Skills</h2>
       <ul className="list-disc list-inside space-y-2">
         <li>
           <strong>Languages & Markup:</strong> JavaScript, TypeScript, HTML, CSS

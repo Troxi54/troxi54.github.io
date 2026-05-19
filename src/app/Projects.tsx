@@ -10,9 +10,9 @@ import Link from "@components/base/Link";
 
 function Projects() {
   return (
-    <section className="w-full">
-      <h2 className="mb-6">💼 My projects</h2>
-      <div className="flex-col space-y-4 sm:space-y-6 projects">
+    <section>
+      <h2 className="text-3xl mb-6">💼 My projects</h2>
+      <div className="flex flex-col items-start justify-start space-y-4 sm:space-y-6">
         <Project
           name="Points Progression"
           screenshotSrc={pointsProgressionScreenshot}
