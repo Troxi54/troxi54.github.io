@@ -1,5 +1,4 @@
 import cn from "@/utils/tailwind";
-import AdditionalExperience from "./AdditionalExperience";
 import Contacts from "./Contacts";
 import Portfolio from "./Portfolio";
 import Projects from "./Projects";
@@ -17,7 +16,6 @@ function App() {
       >
         <Portfolio />
         <Skills />
-        <AdditionalExperience />
         <Projects />
         <Contacts />
       </main>
