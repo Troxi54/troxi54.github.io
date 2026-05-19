@@ -4,17 +4,22 @@ function Skills() {
       <h2 className="text-3xl mb-3">🛠️ Skills</h2>
       <ul className="list-disc list-inside space-y-2">
         <li>
-          <strong>Languages & Markup:</strong> JavaScript, TypeScript, HTML, CSS
+          <strong className="text-muted">Languages:</strong> TypeScript,
+          JavaScript, HTML, CSS
         </li>
         <li>
-          <strong>Frameworks & Libraries:</strong> Next.js, React.js, Tailwind
-          CSS, SCSS, Zustand, jQuery
+          <strong className="text-muted">Frameworks & Libraries:</strong>{" "}
+          Next.js, React.js, Zustand, Prisma, jQuery
         </li>
         <li>
-          <strong>Tools & Platforms:</strong> Git, Vite, Node.js, npm
+          <strong className="text-muted">Styling:</strong> Tailwind CSS, SCSS
         </li>
         <li>
-          <strong>Other:</strong> Responsive design, component architecture
+          <strong className="text-muted">Tools:</strong> Git, Vite, Node.js, npm
+        </li>
+        <li>
+          <strong className="text-muted">Other:</strong> Responsive design,
+          component architecture
         </li>
       </ul>
     </section>

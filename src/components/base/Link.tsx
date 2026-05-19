@@ -12,7 +12,7 @@ function Link({ href, children, className }: Props) {
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "text-accent transition-shadow duration-200 hover:text-shadow-[0_0_5px] hover:text-shadow-accent",
+        "text-accent transition-colors duration-200 hover:text-shadow-[0_0_5px] hover:text-shadow-accent",
         className,
       )}
     >
