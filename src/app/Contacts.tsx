@@ -12,7 +12,7 @@ function Contacts() {
         <li>
           Discord:{" "}
           <Link href="https://discord.com/users/789733863029997598">
-            troxi4_
+            troxidev
           </Link>
         </li>
         <li>

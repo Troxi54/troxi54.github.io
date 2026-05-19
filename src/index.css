@@ -30,7 +30,7 @@ body {
 }
 
 body::before {
-  @apply content-[''] fixed w-screen h-screen top-0 left-0
+  @apply content-[''] fixed w-screen h-screen inset-0 -z-1
          bg-linear-[135deg] from-background-start via-background-mid to-background-end;
 }
 
