@@ -1,9 +1,7 @@
 import pointsProgressionScreenshot from "@assets/pointsProgression.webp";
+import skyflapScreenshot from "@assets/skyflap.webp";
 import squareixionScreenshot from "@assets/squareixion.webp";
 import wealthixScreenshot from "@assets/wealthix.webp";
-import applemaniaScreenshot from "@assets/applemania.webp";
-import pointRanksScreenshot from "@assets/pointRanks.webp";
-import progressBarScreenshot from "@assets/progressBar.webp";
 import cppGameScreenshot from "@assets/cppgame.webp";
 import Project from "@components/base/Project";
 import Link from "@components/base/Link";
@@ -19,10 +17,7 @@ function Projects() {
           src="https://troxi54.github.io/Points-Progression/"
           sourceSrc="https://github.com/Troxi54/Points-Progression"
           stack={
-            <>
-              Vite, React.js, Zustand, Tailwind CSS, TypeScript,
-              break_eternity.js
-            </>
+            <>React.js, Zustand, Tailwind CSS, TypeScript, break_eternity.js</>
           }
           description={
             <>
@@ -40,6 +35,19 @@ function Projects() {
               src: "https://troxi.itch.io/points-progression",
             },
           ]}
+        />
+        <Project
+          name="Skyflap"
+          screenshotSrc={skyflapScreenshot}
+          src="https://skyflap-troxi.vercel.app/"
+          sourceSrc="https://github.com/Troxi54/Skyflap"
+          stack={<>Next.js, Tailwind CSS, Prisma, TypeScript</>}
+          description={
+            <>
+              A simple social platform where users can sign up, create posts,
+              and browse a paginated feed.
+            </>
+          }
         />
         <Project
           name="Squareixion"
@@ -77,47 +85,6 @@ function Projects() {
             <>
               An economy-focused game centered around upgrading generators and
               optimizing performance. Remake of my original C++ game (see below)
-            </>
-          }
-        />
-        <Project
-          name="Applemania"
-          screenshotSrc={applemaniaScreenshot}
-          src="https://troxi54.github.io/Applemania/"
-          sourceSrc="https://github.com/Troxi54/Applemania"
-          stack={<>HTML, CSS, JavaScript, break_eternity.js</>}
-          description={
-            <>
-              A game where players control a character that collects apples,
-              enhances abilities, and unlocks additional gameplay mechanics.
-            </>
-          }
-        />
-        <Project
-          name="Point Ranks"
-          screenshotSrc={pointRanksScreenshot}
-          src="https://troxi54.github.io/Point-Ranks/"
-          sourceSrc="https://github.com/Troxi54/Point-Ranks"
-          stack={<>HTML, CSS, JavaScript, jQuery, break_eternity.js</>}
-          description={
-            <>
-              A fully idle game where players unlock randomly generated layers
-              for infinite growth
-            </>
-          }
-        />
-        <Project
-          name="Progress Bar"
-          screenshotSrc={progressBarScreenshot}
-          src="https://troxi54.github.io/Progress-Bar/"
-          sourceSrc="https://github.com/Troxi54/Progress-Bar"
-          stack={<>HTML, CSS, JavaScript, bignumber.js</>}
-          description={
-            <>
-              A minimalist incremental game centered around a progress bar and
-              featuring reset layers and upgrades. This was my first publicly
-              released web project and an introduction to large number logic
-              using bignumber.js.
             </>
           }
         />
