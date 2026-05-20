@@ -1,1 +1,0 @@
-{"root":["./src/main.tsx","./src/vite-env.d.ts","./src/app/contacts.tsx","./src/app/portfolio.tsx","./src/app/projects.tsx","./src/app/skills.tsx","./src/app/index.tsx","./src/components/base/link.tsx","./src/components/base/project.tsx","./src/config/data.ts","./src/types/react.ts","./src/utils/tailwind.ts"],"version":"6.0.3"}
